@@ -6,7 +6,7 @@ import "../global.css";
 
 const RootLayout = () => {
   return (
-    <View className={"p-4 bg-black  h-screen"}>
+    <View className={"p-4 h-screen"}>
       <Text className={"font-extrabold text-5xl text-white"}>
         Header
       </Text>

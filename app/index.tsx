@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const CalculatorApp = () => {
+const MainApp = () => {
     return (
         <View>
             <Text className='font-bold text-red-500'>IA App</Text>
@@ -9,4 +9,4 @@ const CalculatorApp = () => {
     )
 }
 
-export default CalculatorApp
+export default MainApp
