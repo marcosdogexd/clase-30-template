@@ -6,19 +6,14 @@ import "../global.css";
 
 const RootLayout = () => {
   return (
-    <View className={"p-4 h-screen"}>
-      <Text className={"font-extrabold text-5xl text-white"}>
+    <View style={{ flex: 1, backgroundColor: "gray" }}>
+      <Text style={{ color: "white" }}>
         Header
       </Text>
-
       <Slot />
-
-      <Text>
+      <Text style={{ color: "white" }}>
         Footer
       </Text>
-
-
-
     </View>
   )
 }
